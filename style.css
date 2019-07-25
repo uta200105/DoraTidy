@@ -19,11 +19,12 @@ body {
     
   }
   
-  .navbar a {
+  .list {
     font-weight: 500;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top: 12px;
   }
   
   .anchor {
@@ -34,12 +35,9 @@ body {
   }
 
   #logo {
-    height: 60px;
-    width: 175px;
-  }
-
-  .list {
-      margin-top: 20px;
+    height: 70px;
+    width: 150px;
+    
   }
   
   /*JUMBOTRON*/
@@ -225,6 +223,7 @@ body {
   .dark-blue {
     background: rgba(39,62,84,0.82);
     text-align: center; 
+    
   }
 
   .ul-skills {
@@ -281,6 +280,7 @@ body {
     cursor: default;
     font-size: 1.2em;
     text-align: center;
+    padding: 45px;
   }
 
   .service-text {
