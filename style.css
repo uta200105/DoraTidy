@@ -44,6 +44,8 @@ body {
   .jumbotron {
     height: 100vh; /*height to 100% of view height*/
     background-image: url("./images/cover_pic.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 0; /*no bottom margin*/
     display: flex;
     flex-direction: column;
@@ -148,11 +150,21 @@ body {
     text-align: center;
   }
 
-
-  
   .content-body {
     line-height: 1.5;
     color: rgba(0,0,0,.75);
+  }
+
+  /*EDUCATION*/
+
+  .expheader {
+     font-size: 2.5rem;
+     color: white;
+     padding: 10%;
+     background-color: rgba(39,62,84,0.82);
+     text-transform: uppercase;
+     text-align: center;
+     font-weight: 500;
   }
   
   /*EDUCATION*/
@@ -266,28 +278,23 @@ body {
     
     text-align: center; 
   }
-
-  .ul-service {
-    text-align: center;
-    padding-left: 0;
-  }
   
   .li-service {
     display: inline-block;
-    margin: 10px;
+    /*margin: 10px;*/
     font-weight: 700;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
     text-align: center;
-    padding: 45px;
+    padding: 15px;
   }
 
   .service-text {
     color: black;
-    font-size: 17px;
-    margin-top: 10%;
+    font-size: 15px;
     font-weight: 500;
+    width: 250px;
   }
 
   .service-header {
@@ -299,6 +306,14 @@ body {
   .icon {
       width: 100px;
       height: 100px;
+  }
+
+  .quote {
+      font-size: 2.5em;
+      background-color: rgb(6, 252, 6);
+      border-radius: 15px;
+      padding: 1%;
+      color: white;
   }
   
   /*CONTACT*/
