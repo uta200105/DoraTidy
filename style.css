@@ -155,16 +155,41 @@ body {
     color: rgba(0,0,0,.75);
   }
 
-  /*EDUCATION*/
+  /*GET IN TOUCH*/
 
   .expheader {
      font-size: 2.5rem;
      color: white;
-     padding: 10%;
-     background-color: rgba(39,62,84,0.82);
+     padding-bottom: 5%;
+     color: rgba(39,62,84,0.82);
      text-transform: uppercase;
      text-align: center;
      font-weight: 500;
+  }
+
+  .buttonSubmit {
+    background-color: grey;
+    width: 53%;
+    height: 55px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+  input {
+      width: 50%;
+      padding: 10px;
+      border-radius: 5%;
+      font-size: 1rem;
+      margin: 2%;
+  }
+
+  .message {
+      width: 50%;
+      padding: 8px;
+      border-radius: 2%;
+      border: 1px gray solid;
+      font-size: 1rem;
+      margin: 2%;
   }
   
   /*EDUCATION*/
@@ -187,7 +212,7 @@ body {
   
   .card-content {
     padding: .25rem 1.25rem;
-    flex: 1 1 auto;
+    flex: 1  1 auto;
   }
   
   h4 {

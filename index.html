@@ -172,29 +172,33 @@
       </div>
       <!-- END SERVICE -->
 
-
-
-      <!-- BEGIN CONTACT -->
-
-      <div class="row blue">
+            <!-- BEGIN GET IN TOUCH -->
+      <div class="row">
         <div class="side-content"></div>
         <div class="main-content">
           <div class="content-header">
             <a class="anchor" name="contact"></a>
-            <h2 class="white-text">Contact Me</h2>
+            <h4 class="expheader">Get In Touch</h4>
           </div>
-          <div class="contact content-body">
-            <form method="POST" action="https://formspree.io/email@email.com">
-                <input type="hidden" name="_subject" value="Contact request from personal website" />
-                <input type="email" name="_replyto" placeholder="Your email" required>
-                <textarea name="message" placeholder="Your message" required></textarea>
-                <button type="submit">Send</button>
+
+          <!-- GET IN TOUCH FORM -->
+
+            <div class="contactUs">
+              <h4>Please Complete the form and we will be in touch shortly</h4> 
+              <form formaction="/contactus/" method="get" class="card-content">
+                    <input type="name" class="name" placeholder="Name" required>
+                    <input type="email" class="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9]+[a-z]{2,}$">
+                    <textarea name="message" rows="10" cols="30" class="message" placeholder="Message"></textarea>
+                <button type="submit" formaction="/contactus/" class="buttonSubmit">
+                    <p class="buttonFont">Submit</p>
+                </button>
             </form>
+            </div>
           </div>
         </div>
         <div class="side-content"></div>
       </div>
-      <!-- END CONTACT -->
+      <!-- END GET IN TOUCH -->
 
       <!-- BEGIN FOOTER -->
       <div class="row">
