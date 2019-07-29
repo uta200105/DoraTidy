@@ -307,12 +307,16 @@ body {
   .blue {
     text-align: center;
   }
+
+  .content-header {
+      margin-left: 15%;
+  }
   
   .contact {
     max-width: 500px;
     margin: 0 auto;
   }
-  
+
   .contact input, .contact textarea {
     display: block;
     width: 100%;
