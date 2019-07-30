@@ -4,6 +4,8 @@
   <head>
     <meta charset="utf-8">
     <title>DoraTidy.net</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600,700,800" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,9 +18,12 @@
         <img src="images/doratidylogo.png" id="logo" alt="logo">
         </a>
       <a class="list" href="#about">About</a>
-      <a class="list" href="#education">Services</a>
-      <a class="list" href="#projects">Free Quote</a>
-      <a class="list" href="#skills">Contact</a>
+      <a class="list" href="#services">Services</a>
+      <a class="list" id="nav-button">Free Quote</a>
+      <a class="list" href="#contact">Contact</a>
+        <a>
+            <img src="./images/call-us-image.jpg" alt="contact-info" class="contact-img">
+        </a>
     </div>
     <!-- END NAVBAR -->
 
@@ -116,7 +121,7 @@
         <div class="side-content"></div>
         <div class="main-content">
           <div class="content-header">
-            <a class="anchor" name="service"></a>
+            <a class="anchor" name="services"></a>
             <h2 class="servic-header">Full Service Cleaning Professionals</h2>
           </div>
           <div class="content-body">
@@ -159,7 +164,28 @@
               </li>
             </ul>
           </div>
-          <button type="button" class="quote" onclick="alert('Hello world!')">Free Quote</button>
+          <button type="button" class="quote" id="quote-button">Free Quote</button>
+        <!-- The Modal -->
+            <div id="buttonModal" class="modal">
+
+        <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                <span class="close">&times;</span>
+                    <h2 class="modal-title">Free Quote</h2>
+                    <h3>Please complete the form and we will follow up with your quote shortly.</h3>
+            </div>
+            <div class="modal-body">
+                <form method="POST" action="https://formspree.io/email@email.com">
+                    <input type="hidden" name="_subject" value="Contact request from personal website"/>
+                    <input type="name" name="name" placeholder="Your Name" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            </div>
+        <!-- End Modal content -->
+
+      </div>
         </div>
         <div class="side-content"></div>
       </div>
@@ -204,5 +230,7 @@
       <!-- END FOOTER -->
 
     </div>
+    <!-- Javascript JS -->
+    <script src="./dorasTidy.js"></script>
   </body>
 </html>
