@@ -21,9 +21,6 @@
       <a class="list" href="#services">Services</a>
       <a class="list" id="nav-button">Free Quote</a>
       <a class="list" href="#contact">Contact</a>
-        <a>
-            <img src="./images/call-us-image.jpg" alt="contact-info" class="contact-img">
-        </a>
     </div>
     <!-- END NAVBAR -->
 
@@ -177,8 +174,43 @@
             </div>
             <div class="modal-body">
                 <form method="POST" action="https://formspree.io/email@email.com">
+                   <div class="modalForm mContact">
+                    <h3 class="mHeader">Contact Information</h3>
                     <input type="hidden" name="_subject" value="Contact request from personal website"/>
-                    <input type="name" name="name" placeholder="Your Name" required>
+                    <input type="name" name="first-name" placeholder="First Name" required>
+                    <input type="name" name="last-name" placeholder="Last Name" required>
+                    <input type="email" name="_replyto" placeholder="Your email" required pattern="[a-z0-9._%+-]+@[a-z0-9]+[a-z]{2,}$">
+                    <input type="phone" name="phone-number" placeholder="Phone Number" required>
+                </div>
+                <div class="modalForm mAddress">
+                    <h3 class="mheader">Location Details</h3>
+                    <input type="name" name="address" placeholder="Address" required>
+                    <input type="name" name="apt-number" placeholder="Apt/Suite Number" required>
+                    <input type="name" name="city" placeholder="City" required>
+                    <input type="name" name="state" value="Texas" readonly>
+                    <input type="name" name="zip code" placeholder="Zip" size="5" required> 
+                </div>
+                <div class="modalForm mServices">
+                    <h3 class="mheader">Which Service Works Best For You?</h3>
+                    <select name="services">
+                        <option value="commercial">Commercial</option>
+                        <option value="housekeeping">Housekeeping</option>
+                        <option value="occasional">Occasional</option>
+                        <option value="moveIn-moveOut">Move In/Move Out</option>
+                        <option value="floor">Floor</option>
+                        <option value="janitorial">Janitorial</option>
+                        <option value="apartment">Apartment</option>
+                    </select>
+                </div>
+                <div class="modalForm mTime">
+                    <h3 class="mheader">How Often?</h3>
+                    <select name="schedule">
+                        <option value="weekly">Daily</option>
+                        <option value="weekly">Weekly</option>
+                        <option value="weekly">BiWeekly</option>
+                        <option value="weekly">Monthly</option>
+                    </select>
+                </div> 
                     <button type="submit">Submit</button>
                 </form>
             </div>
