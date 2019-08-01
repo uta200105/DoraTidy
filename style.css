@@ -16,7 +16,6 @@ body {
     width: 100%; /* Full width */
     display: flex;
     justify-content: center;
-    
   }
   
   .list {
@@ -313,7 +312,7 @@ body {
   }
 
   .modal-header {
-    padding: 18px 10px;
+    padding: 5px 5px;
     background-color: rgba(39,62,84,0.82);
     color: white;
   }
@@ -324,6 +323,36 @@ body {
   
   .modal-body {
     padding: 2px 16px;
+}
+
+  .mHeader {
+      color: gray;
+  }
+
+  .mInput {
+      padding: 5px;
+      margin: 1%;
+      border-radius: 15px;
+      width: 33%;
+  }
+
+  .strAddress {
+      width: 50%;
+  }
+
+  .mSubmit {
+      background-color: rgb(6, 252, 6);
+      width: 28%;
+      border-radius: 15px;
+      color: white;
+      padding: 1%;
+      font-size: 25px;
+      font-weight: 700;
+      margin: 1%;
+  }
+
+  .mSubmit:hover {
+    background-color: blue;
 }
   
   /*CONTACT*/
