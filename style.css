@@ -417,4 +417,41 @@ body {
 
   /*FOOTER*/
 
+  .footer {
+      background-color: white;
+  }  
+  
+.main-content-footer {
+    flex: 0 0 66.6%;
+  }
+
+.footer-contact {
+    text-align: center;
+    padding-left: 0;
+  }
+  
+  .cFooter {
+    display: inline-block;
+    padding: 5px;
+    list-style: none;
+    cursor: default;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 1%;
+  }
+
+  .copyWrite {
+      margin-bottom: 1%;
+  }
+
+  .footerImg {
+      width: 40px;
+  }
+
+  .ftext {
+      padding-bottom: 2%;
+      
+  }
+
+
 
