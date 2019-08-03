@@ -360,6 +360,12 @@ body {
     text-align: center;
   }
 
+  .contact-us-photo {
+    box-shadow: 15px 10px 10px rgb(170, 170, 170);
+    margin-bottom: 1%;
+    border: 2px solid rgb(170, 170, 170);
+  }
+
   .content-header {
       margin-left: 15%;
   }
@@ -379,13 +385,12 @@ body {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    position: relative;
-    z-index: -1;
   }
 
   .contact textarea {
     height: 150px;
     resize: none;
+    color: black;
   }
   
   .contact button {
@@ -401,9 +406,13 @@ body {
     font-size: 35px;
   }
 
-  button {
+  .contact-button {
       color: white;
   }
+
+  .contact-button:hover {
+      background-color: rgb(6, 252, 6);
+}
 
   .contact-header {
       color: rgba(39,62,84,0.82);
