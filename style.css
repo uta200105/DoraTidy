@@ -16,6 +16,7 @@ body {
     width: 100%; /* Full width */
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   
   .list {
@@ -366,7 +367,7 @@ body {
     border: 2px solid rgb(170, 170, 170);
   }
 
-  .content-header {
+  .ch {
       margin-left: 15%;
   }
   
@@ -437,14 +438,16 @@ body {
 .footer-contact {
     text-align: center;
     padding-left: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
   
   .cFooter {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     list-style: none;
     cursor: default;
-    font-size: 15px;
+    font-size: 10px;
     font-weight: 500;
     padding-top: 1%;
   }
@@ -454,7 +457,7 @@ body {
   }
 
   .footerImg {
-      width: 40px;
+      width: 25px;
   }
 
   .ftext {
@@ -462,5 +465,18 @@ body {
       
   }
 
+    /* Largest Screen */
 
+    @media only screen and (min-width: 900px) {
+}
+
+    @media only screen and (min-width: 600px) and (max-width: 900px) {
+
+    /* Medium Screen */
+
+    .navbar {
+        max-width: 1000px;
+    }
+
+}
 
