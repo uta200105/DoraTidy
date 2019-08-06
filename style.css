@@ -18,6 +18,17 @@ body {
     justify-content: center;
     z-index: 1;
   }
+
+  .jumbotron-social {
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    right: 0; /* Position the navbar at the top of the page */
+    top: 27%;
+    width: 5%; /* Full width */
+    margin-bottom: 50px;
+    display: flex;
+    z-index: 1;
+  }
   
   .list {
     font-weight: 500;
@@ -468,15 +479,20 @@ body {
     /* Largest Screen */
 
     @media only screen and (min-width: 900px) {
+ 
 }
 
     @media only screen and (min-width: 600px) and (max-width: 900px) {
 
     /* Medium Screen */
 
-    .navbar {
-        max-width: 1000px;
+      
     }
 
-}
+    @media only screen and (max-width: 600px) {
+
+      
+    }
+
+
 
