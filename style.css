@@ -18,17 +18,6 @@ body {
     justify-content: center;
     z-index: 1;
   }
-
-  .jumbotron-social {
-    background-color: white;
-    position: fixed; /* Set the navbar to fixed position */
-    right: 0; /* Position the navbar at the top of the page */
-    top: 27%;
-    width: 5%; /* Full width */
-    margin-bottom: 50px;
-    display: flex;
-    z-index: 1;
-  }
   
   .list {
     font-weight: 500;
@@ -77,26 +66,34 @@ body {
   }
   
   .jumbotron-text {
-    /*TAGLINE UNDER NAME*/
-    font-weight: 400;
-    font-size: 1em;
+    font-weight: 800; 
     color: white;
     text-align: center;
+    font-size: 1.5em;
     margin-top: 75px;
     padding-bottom: 10px;
     background-color: rgba(6, 252, 6, 0.514);
-    
+    text-transform: uppercase;
   }
   
   .jumbotron-text h1 {
-    /*YOUR NAME*/
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 3em;
     margin-bottom: 0;
   }
   
   /*SOCIAL LINKS*/
+
+  .jumbotron-social {
+    background-color: rgba(255, 255, 255, 0.856);
+    position: fixed; /* Set the navbar to fixed position */
+    right: 0; /* Position the navbar at the top of the page */
+    top: 27%;
+    width: 5%; /* Full width */
+    margin-bottom: 50px;
+    display: flex;
+    z-index: 1;
+    border-radius: 5px;
+  }
+
   .ul-social {
     text-align: center;
     padding-left: 0;
@@ -105,12 +102,13 @@ body {
   .li-social-links {
     display: inline-block;
     list-style: none;
+    padding: 8px;
   }
   
   .social {
     font-size: 2em;
     color: rgb(6, 252, 6);
-    padding: 20px;
+    padding: 5px;
   }
 
   .social:hover {
@@ -148,20 +146,14 @@ body {
   .side-content {
     flex: 0 0 16.6%;
   }
+
+  .side-content-c {
+    flex: 0 0 16.6%;
+  }
   
   .main-content {
     flex: 0 0 66.6%;
     margin-top: 4rem;
-    margin-bottom: 3rem;
-  }
-  
-  .side-content-sm {
-    flex: 0 0 10%;
-  }
-  
-  .main-content-lg {
-    flex: 0 0 80%;
-    margin-top: 2rem;
     margin-bottom: 3rem;
   }
   
@@ -376,6 +368,7 @@ body {
     box-shadow: 15px 10px 10px rgb(170, 170, 170);
     margin-bottom: 1%;
     border: 2px solid rgb(170, 170, 170);
+    width: 35%;
   }
 
   .ch {
@@ -383,7 +376,7 @@ body {
   }
   
   .contact {
-    max-width: 500px;
+    
     margin: 0 auto;
   }
 
@@ -476,22 +469,57 @@ body {
       
   }
 
-    /* Largest Screen */
+    @media only screen and (min-width: 657px) {
+      /* Largest Screen */
 
-    @media only screen and (min-width: 900px) {
- 
-}
+      .side-content-c {
+        display: none;
+      }
 
-    @media only screen and (min-width: 600px) and (max-width: 900px) {
+  }
+
+    @media only screen and (max-width: 1042px) {
 
     /* Medium Screen */
 
-      
+    .jumbotron-text {
+      font-size: 20px;
     }
 
-    @media only screen and (max-width: 600px) {
+    }
 
-      
+    @media only screen and (max-width: 872px) {
+
+      .jumbotron-text {
+        font-size: 15px;
+      }
+
+      .contact-us-photo {
+        width: 45%;
+      }
+
+      .ch {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    }
+
+    @media only screen and (max-width: 657px) {
+
+      .jumbotron-text {
+        font-size: 10px;
+      }
+
+      .contact-us-photo {
+        display: none;
+      }
+    }
+
+    @media only screen and (max-width: 427px) {
+
+      .jumbotron-text {
+        font-size: 7px;
+      }
     }
 
 
