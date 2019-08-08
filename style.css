@@ -34,7 +34,6 @@ body {
   .anchor {
     display: block;
     position: relative;
-    top: -70px;
     visibility: hidden;
   }
 
@@ -239,12 +238,6 @@ body {
     font-size: 15px;
     font-weight: 500;
     width: 250px;
-  }
-
-  .service-header {
-      color: white;
-      font-size: 3em;
-      margin-bottom: 8%;
   }
 
   .icon {
@@ -488,6 +481,10 @@ body {
       font-size: 20px;
     }
 
+    .steps-text {
+      font-size: 15px;
+    }
+
     }
 
     @media only screen and (max-width: 872px) {
@@ -504,6 +501,17 @@ body {
         margin-left: 5%;
         margin-right: 5%;
     }
+
+      .steps-text {
+        font-size: 12px;
+    }
+
+      .service-header {
+        font-size: 35px;
+    }
+
+
+
     }
 
     @media only screen and (max-width: 657px) {
@@ -515,6 +523,23 @@ body {
       .contact-us-photo {
         display: none;
       }
+
+      .steps-text {
+        font-size: 8px;
+    }
+
+    .steps-header {
+      font-size: 2em;
+    }
+
+    .main-content {
+      margin-top: 1rem;
+    }
+
+    .service-header {
+      font-size: 25px;
+    }
+
     }
 
     @media only screen and (max-width: 427px) {
@@ -522,6 +547,15 @@ body {
       .jumbotron-text {
         font-size: 7px;
       }
+
+      .steps-text {
+        font-size: 5px;
+    }
+
+    .steps-header {
+      font-size: 1.5em;
+  }
+
     }
 
 
