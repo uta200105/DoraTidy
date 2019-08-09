@@ -149,6 +149,10 @@ body {
   .side-content-c {
     flex: 0 0 16.6%;
   }
+
+  .side-content-s {
+    flex: 0 1 16.6%;
+  }
   
   .main-content {
     flex: 0 0 66.6%;
@@ -462,6 +466,8 @@ body {
       
   }
 
+  /* MEDIA QUERIES */
+
     @media only screen and (min-width: 657px) {
       /* Largest Screen */
 
@@ -499,6 +505,10 @@ body {
         height: 70vh;
       }
 
+      .modal-content {
+        width: 85%;
+      }
+
       .contact-us-photo {
         width: 45%;
       }
@@ -526,6 +536,10 @@ body {
 
       .jumbotron {
         height: 55vh;
+      }
+
+      .modal-content {
+        width: 85%;
       }
 
       .contact-us-photo {
@@ -560,6 +574,10 @@ body {
         height: 40vh;
       }
 
+      .modal-content {
+        width: 85%;
+      }
+
       .steps-text {
         font-size: 5px;
     }
@@ -567,6 +585,10 @@ body {
     .steps-header {
       font-size: 1.5em;
   }
+
+    .service-header {
+      font-size: 20px;
+    }
 
     }
 
