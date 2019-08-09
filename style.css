@@ -46,12 +46,6 @@ body {
       background-color: white;
       border: none;
   }
-
-  .contact-img {
-    height: 40px;
-    width: 125px;
-    margin-top: 12px;
-  }
   
   /*JUMBOTRON*/
   .jumbotron {
@@ -84,8 +78,8 @@ body {
   .jumbotron-social {
     background-color: rgba(255, 255, 255, 0.856);
     position: fixed; /* Set the navbar to fixed position */
-    right: 0; /* Position the navbar at the top of the page */
-    top: 27%;
+    left: 0; /* Position the navbar at the top of the page */
+    top: 35%;
     width: 5%; /* Full width */
     margin-bottom: 50px;
     display: flex;
@@ -105,7 +99,7 @@ body {
   }
   
   .social {
-    font-size: 2em;
+    font-size: 1.5em;
     color: rgb(6, 252, 6);
     padding: 5px;
   }
@@ -448,7 +442,7 @@ body {
     padding: 10px;
     list-style: none;
     cursor: default;
-    font-size: 10px;
+    font-size: .4em;
     font-weight: 500;
     padding-top: 1%;
   }
@@ -458,11 +452,11 @@ body {
   }
 
   .footerImg {
-      width: 25px;
+      width: 15px;
   }
 
   .ftext {
-      padding-bottom: 2%;
+      padding-bottom: 1%;
       
   }
 
@@ -505,6 +499,10 @@ body {
         height: 70vh;
       }
 
+      .jumbotron-social {
+        width: 7%; 
+      }
+
       .modal-content {
         width: 85%;
       }
@@ -536,6 +534,11 @@ body {
 
       .jumbotron {
         height: 55vh;
+      }
+
+      .jumbotron-social {
+        width: 10%;
+        top: 18%;
       }
 
       .modal-content {
@@ -572,6 +575,19 @@ body {
 
       .jumbotron {
         height: 40vh;
+      }
+
+      .jumbotron-social {
+        width: 10%;
+        top: 15%;
+      }
+
+      .social {
+        font-size: 1em;
+      }
+
+      .li-social-links {
+        padding: 5px;
       }
 
       .modal-content {
