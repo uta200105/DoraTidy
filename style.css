@@ -496,7 +496,7 @@ body {
       }
 
       .jumbotron {
-        height: 70vh;
+        height: 80vh;
       }
 
       .jumbotron-social {
@@ -533,7 +533,7 @@ body {
       }
 
       .jumbotron {
-        height: 55vh;
+        height: 66vh;
       }
 
       .jumbotron-social {
@@ -569,12 +569,30 @@ body {
 
     @media only screen and (max-width: 427px) {
 
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      .navbar {
+        font-size: 10px;
+      }
+      
+      .list {
+        padding: 6px 6px;
+      }
+
+      #logo {
+        height: 50px;
+        width: 90px;
+      }
+
       .jumbotron-text {
         font-size: 7px;
+        margin-top: 50px;
       }
 
       .jumbotron {
-        height: 40vh;
+        height: 51vh;
       }
 
       .jumbotron-social {
@@ -594,16 +612,32 @@ body {
         width: 85%;
       }
 
+      .side-content-s {
+        flex: 0 1 6%;
+      }
+
       .steps-text {
         font-size: 5px;
     }
 
     .steps-header {
       font-size: 1.5em;
+    }
+
+    .service-text {
+      font-size: .8em;
+    }
+
+    .icon {
+      width: 30%;  
   }
 
-    .service-header {
-      font-size: 20px;
+    .content-body {
+      font-size: .8em;
+    }
+
+    #down-arrow {
+      display: none;
     }
 
     }
