@@ -570,7 +570,23 @@ body {
     @media only screen and (max-width: 427px) {
 
       h2 {
-        font-size: 1.5rem;
+        font-size: 1rem;
+      }
+
+      h3 {
+        font-size: .7rem;
+      }
+
+      .side-content {
+        flex: 0 0 10%;
+      }
+
+      .side-content-c {
+        flex: 0 0 10%;
+      }
+
+      .main-content {
+        flex: 0 0 80%;
       }
 
       .navbar {
@@ -612,32 +628,44 @@ body {
         width: 85%;
       }
 
-      .side-content-s {
-        flex: 0 1 6%;
-      }
-
       .steps-text {
-        font-size: 5px;
+        font-size: 7px;
     }
 
     .steps-header {
       font-size: 1.5em;
     }
 
+    .service-header {
+      font-size: 1rem;  
+    }
+
     .service-text {
-      font-size: .8em;
+      font-size: 9px;
+      width: 215px;
+      padding: 2%;
+    }
+
+    .li-service {
+      padding:0;
     }
 
     .icon {
-      width: 30%;  
+      width: 30%;
+      float: left;
+      padding: 2%;  
   }
 
     .content-body {
-      font-size: .8em;
+      font-size: 10px;
     }
 
     #down-arrow {
       display: none;
+    }
+
+    .contact-header {
+      font-size: .7rem;
     }
 
     }
